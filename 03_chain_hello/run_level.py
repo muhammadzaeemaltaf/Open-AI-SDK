@@ -1,7 +1,7 @@
 from agents import Agent, Runner, AsyncOpenAI, OpenAIChatCompletionsModel
 from agents.run import RunConfig
 
-gemini_api_key = "AIzaSyAPjJtievHhVgEZioHVAXJtYVdk1WatlHM"
+gemini_api_key = "API KEY"
 
 external_client = AsyncOpenAI(
     api_key=gemini_api_key,
